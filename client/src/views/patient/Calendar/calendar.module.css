@@ -1,0 +1,107 @@
+/* body{
+
+} */
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  width: 100%;
+}
+
+.tituloChoose {
+  display: flex;
+
+  margin: auto;
+  margin-top: 90px;
+  text-align: center;
+}
+
+.containerDate .turnContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 300%;
+  
+  height: 500px;
+  border: #009be5 solid 2px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-left: -100px;
+}
+.containerDate .uTurns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 300%;
+  height: 500px;
+  border: black solid 2px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-left: -100px;
+}
+
+.turnContainer .turns {
+  width: 150px;
+  padding-top: 10px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 120px;
+  margin-top: 0px;
+}
+.turnContainer button {
+  border: 1px solid pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.turnContainer p {
+  border: 1px solid #009be5 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+.btn {
+  padding: 2px;
+  border-radius: 16px;
+  border: 1px solid transparent;
+  color: #ffffff;
+  background-color: #1dc9a0;
+  font-size: 16px;
+  margin-left: -0.5px;
+  letter-spacing: 1px;
+  transition: all 0.15s linear;
+  margin-top: 8px;
+}
+
+.btn:hover {
+  background-color: rgba(29, 201, 160, 0.08);
+  border-color: #1dc9a0;
+  color: #1dc9a0;
+  transform: translateY(-5px) scale(1.05);
+}
+
+.btn:active {
+  background-color: transparent;
+  border-color: #1dc9a0;
+  color: #1dc9a0;
+  transform: translateY(5px) scale(0.95);
+}
+
+.btn:disabled {
+  background-color: rgba(255, 255, 255, 0.16);
+  color: #8e8e93;
+  border-color: #8e8e93;
+}
